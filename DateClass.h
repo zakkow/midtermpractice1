@@ -3,14 +3,15 @@
 #include <string>
 using namespace std;
 
-class DateClass{
+class DateClass {
 private:
-	int Month;
-	int Day;
-	int Year;
-	string MonthName();
-public: 
-	DateClass(int, int, int);
-	void PrintMonth();
-};
+    int Month;
+    int Day;
+    int Year;
+    string MonthName();
+    bool isValidDate();
 
+public:
+    DateClass(int, int, int);
+    void PrintMonth();
+};
